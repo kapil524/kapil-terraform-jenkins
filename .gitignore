@@ -1,0 +1,15 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfplan
+modules.tfstate
+
+# Ignore binaries and JSON
+*.exe
+*.json
+*.txt
+
+# Ignore IDE/editor stuff
+.vscode/
+.idea/
